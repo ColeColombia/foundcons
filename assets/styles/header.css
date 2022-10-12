@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.logo{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.search{
+    width: 65%;
+    margin: auto;
+    margin-top: 5px;
+    border:2px solid black;
+}
+
+.searchTerm{
+    width: 87%;
+    outline: none;
+    height: 45px;
+    border: none;
+}
+
+.searchButton{
+    width: 13%;
+    outline: none;
+    height: 45px;
+    border: none;
+}
+
+.dropdown-menu li .dropdown-item:active{
+    background-color: black;
+} 

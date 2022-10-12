@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}My Culprits{% endblock %}
+
+       {% block stylesheet %}
+            {{ encore_entry_link_tags('culprit') }}
+        {% endblock %}
+
+        {% block javascript %}
+            {{ encore_entry_script_tags('culprit') }}
+        {% endblock %} 
+
+        {% block content %}
+          <div id="culprit"></div>
+        {% endblock %}
