@@ -1,0 +1,19 @@
+.user-details{
+    color: silver;
+}
+
+.btn{
+    background-color: #7c57ee;
+    color: silver;
+    width: 100%;
+}
+
+.list-group .btn:hover{
+    background-color: #471cca;
+    width: 100%;
+}
+
+.list-group .list-group-item{
+    background-color: #141414;
+    color: silver;
+}
