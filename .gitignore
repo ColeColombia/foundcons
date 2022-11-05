@@ -7,6 +7,7 @@
 /public/bundles/
 /var/
 /vendor/
+/.env
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###
@@ -24,4 +25,5 @@
 /public/build/
 npm-debug.log
 yarn-error.log
+.yarn
 ###< symfony/webpack-encore-bundle ###

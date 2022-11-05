@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "./styles/app.css";
 import Header from './components/header';
 
 // start the Stimulus application

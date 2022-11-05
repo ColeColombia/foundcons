@@ -1,0 +1,15 @@
+.list-group .btn{
+    background-color: #141414;
+    color: silver;
+    width: 100%;
+}
+
+.list-group .btn:hover{
+    background-color: #471cca;
+    width: 100%;
+}
+
+.list-group .list-group-item{
+    background-color: #141414;
+    color: silver;
+}
