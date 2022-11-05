@@ -6,8 +6,8 @@ export default function Header(){
         <>
         <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-2">
               <a href={Routing.generate('app_index')} className="navbar-brand p-0"><h1 className="logo">Carro</h1></a>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <i className="bi bi-list"></i>
+              <button className="navbar-toggler mobile-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <h1><i className="bi bi-list"></i></h1>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto py-0">
@@ -30,9 +30,9 @@ export default function Header(){
             </div>
         </nav>
         <div className="container wrap">
-            <div className="search">
-            <input type="text" className="searchTerm" placeholder="Search people"/>
-             <button type="submit" className="searchButton">
+            <div className="search rounded-pill">
+            <input type="text" className="searchTerm rounded-pill" placeholder="Search people"/>
+             <button type="submit" className="searchButton rounded-pill">
              <i className="bi bi-search"></i>
             </button>
             </div>
